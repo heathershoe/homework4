@@ -89,11 +89,12 @@ footer{
   background-color: #ddd;
   padding: 20px 0;
   text-align: left;
+  vertical-align: middle;
 }
 
 header{
   background-attachment: fixed; /* Parallax effect */
-  background-image: url();      /* Your code here - Link to header.jpg in the images folder */
+  background-image: url("../images/header.jpg");      /* Your code here - Link to header.jpg in the images folder */
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
@@ -123,7 +124,7 @@ header p{
 
 .about{
   grid-column: 2 / -2;
-  grid-row: 3
+  grid-row: 3;
   /*Your code here */
 }
 
@@ -137,7 +138,7 @@ header p{
 
 .method{
   grid-column: 2 / -2;
-  grid-row: 4
+  grid-row: 4;
 }
 
 .clients-image{
@@ -150,7 +151,7 @@ header p{
 
 .clients{
   grid-column: 2 / -2;
-  grid-row: 5
+  grid-row: 5;
 }
 
 .contact-image{
@@ -162,14 +163,14 @@ header p{
 
 .contact{
   grid-column: 2 / -2;
-  grid-row: 6
+  grid-row: 6;
 }
 
 .text-block{
-  padding: 30px;
-  vertical-align: middle; /*eh, maybe not this line*/
-   /*Your code here */
 
+
+   /*Your code here */
+  margin:auto;
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
