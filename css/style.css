@@ -55,7 +55,8 @@ nav a:hover{
 /*Add the selector and rule to move the skip link to the exact top.*/
 }
 
-/*Your code here*/{
+:focus/*Your code here*/{
+  border: 2px solid black;
 /*Add the selector and code to put a 2px black border around all elements in focus.*/
 }
 
@@ -63,7 +64,7 @@ nav a:hover{
 footer{
   background-color: black;
   color: white;
-  grid-column: 1 / -1;  /*Can you explain what this does?*/
+  grid-column: 1 / -1;  /*Can you explain what this does? The footer begins in column 1 and ends at the last column*/
   grid-row: 7 / auto;   /*Can you rewrite it?*/
   padding-top: 30px;
   text-align: center;
@@ -118,14 +119,11 @@ header p{
   grid-row: 3;
   max-height: 700px;
   overflow: hidden;
-  /*Your code here */
-
 }
 
 .about{
   grid-column: 2 / -2;
   grid-row: 3;
-  /*Your code here */
 }
 
 .method-image{
@@ -133,7 +131,6 @@ header p{
   grid-row: 4;
   max-height: 700px;
   overflow: hidden;
-  /*Your code here */
 }
 
 .method{
@@ -146,7 +143,6 @@ header p{
   grid-row: 5;
   max-height: 700px;
   overflow: hidden;
- /*Your code here */
 }
 
 .clients{
@@ -187,41 +183,41 @@ header p{
 
   .nav{
     background-color: #ddd;
-
-     /*Your code here */
+    text-align: right;
+    padding: 35px 0;
   }
 
   .about-image{
-     /*Your code here */
+     grid-column: 2 / span 2;
     }
 
   .about{
-    /*Your code here */
+    grid-column: 3 / span 2;
   }
 
   .method-image{
-    /*Your code here */
+    grid-column: 3 / span 2;
   }
 
   .method{
-    /*Your code here */
+    grid-column: 2 / span 2;
   }
 
   .clients-image{
-    /*Your code here */
+    grid-column: 2 / span 2;
 
   }
 
   .clients{
-    /*Your code here */
+    grid-column: 3 / span 2;
   }
 
   .contact-image{
-    /*Your code here */
+    grid-column: 3 / span 2;
   }
 
   .contact{
-    /*Your code here */
+    grid-column: 2 / span 2;
    }
 
 }  /*End the media query*/
